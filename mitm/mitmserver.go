@@ -26,7 +26,6 @@ const (
 // HandlerWrapper wrapper of handler for http server
 type HandlerWrapper struct {
 	Certs     *certs.Manager
-	wrapped   http.Handler
 	tlsConfig func(host string) (*tls.Config, error)
 	https     bool
 }

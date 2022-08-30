@@ -18,7 +18,7 @@ cacert.pem
 将这个证书导入浏览器，设置为始终信任即可
 ## How it work
 见下图
-![img](https://i.bmp.ovh/imgs/2022/04/11/86f40bf749ef1467.png)
+![img](go-mitm.png)
 ## Thanks to
 [mitm](https://github.com/lyyyuna/mitm)\
 [proxify](https://github.com/projectdiscovery/proxify)
